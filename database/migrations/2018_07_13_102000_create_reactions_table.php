@@ -9,15 +9,13 @@ class CreateReactionsTable extends Migration
     public function up()
     {
         Schema::create('reactions', function (Blueprint $table) {
-            $table->increments('id');
+            $table->id();
 
             $table->morphs('reactable');
 
             $table->tinyInteger('type');
 
-            $table->integer('created_by')->unsigned()->nullable();
-            $table->foreign('created_by')->references('id')
-                ->on('users');
+            $table->foreignId('created_by')->nullable()->constrained('users')->index()->name('comments_created_by_foreign');
 
             $table->timestamps();
         });

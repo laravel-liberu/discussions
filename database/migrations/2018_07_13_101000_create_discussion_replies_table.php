@@ -9,16 +9,14 @@ class CreateDiscussionRepliesTable extends Migration
     public function up()
     {
         Schema::create('discussion_replies', function (Blueprint $table) {
-            $table->increments('id');
+            $table->id();
 
-            $table->integer('discussion_id')->unsigned()->index('discussion_id');
-            $table->foreign('discussion_id')->references('id')->on('discussions');
+            $table->foreignId('discussion_id')->constrained()->index('discussion_id')
+                ->name('discussion_replies_discussion_id_foreign');
 
             $table->text('body');
 
-            $table->integer('created_by')->unsigned()->nullable();
-            $table->foreign('created_by')->references('id')
-                ->on('users');
+            $table->foreignId('created_by')->nullable()->constrained('users')->index()->name('comments_created_by_foreign');
 
             $table->timestamps();
         });
