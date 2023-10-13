@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Discussions\Policies;
+namespace LaravelLiberu\Discussions\Policies;
 
 use Illuminate\Auth\Access\HandlesAuthorization;
-use LaravelEnso\Discussions\Models\Reply as Model;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Discussions\Models\Reply as Model;
+use LaravelLiberu\Users\Models\User;
 
 class Reply
 {

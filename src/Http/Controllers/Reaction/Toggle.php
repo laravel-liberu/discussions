@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Discussions\Http\Controllers\Reaction;
+namespace LaravelLiberu\Discussions\Http\Controllers\Reaction;
 
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Discussions\Http\Resources\Reaction as Resource;
-use LaravelEnso\Discussions\Models\Reaction;
+use LaravelLiberu\Discussions\Http\Resources\Reaction as Resource;
+use LaravelLiberu\Discussions\Models\Reaction;
 
 class Toggle extends Controller
 {

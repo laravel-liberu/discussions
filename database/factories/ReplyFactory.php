@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Discussions\Database\Factories;
+namespace LaravelLiberu\Discussions\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use LaravelEnso\Discussions\Models\Discussion;
-use LaravelEnso\Discussions\Models\Reply;
+use LaravelLiberu\Discussions\Models\Discussion;
+use LaravelLiberu\Discussions\Models\Reply;
 
 class ReplyFactory extends Factory
 {

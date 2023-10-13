@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Discussions\DynamicRelations;
+namespace LaravelLiberu\Discussions\DynamicRelations;
 
 use Closure;
-use LaravelEnso\Discussions\Models\Reply;
-use LaravelEnso\DynamicMethods\Contracts\Method;
+use LaravelLiberu\Discussions\Models\Reply;
+use LaravelLiberu\DynamicMethods\Contracts\Method;
 
 class Replies implements Method
 {

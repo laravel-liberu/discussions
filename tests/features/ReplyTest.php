@@ -3,10 +3,10 @@
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Schema;
-use LaravelEnso\Discussions\Models\Discussion;
-use LaravelEnso\Discussions\Models\Reply;
-use LaravelEnso\Discussions\Traits\Discussable;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Discussions\Models\Discussion;
+use LaravelLiberu\Discussions\Models\Reply;
+use LaravelLiberu\Discussions\Traits\Discussable;
+use LaravelLiberu\Users\Models\User;
 use Tests\TestCase;
 
 class ReplyTest extends TestCase

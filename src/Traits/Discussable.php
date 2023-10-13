@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Discussions\Traits;
+namespace LaravelLiberu\Discussions\Traits;
 
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\Discussions\Exceptions\DiscussionConflict;
-use LaravelEnso\Discussions\Models\Discussion;
+use LaravelLiberu\Discussions\Exceptions\DiscussionConflict;
+use LaravelLiberu\Discussions\Models\Discussion;
 
 trait Discussable
 {

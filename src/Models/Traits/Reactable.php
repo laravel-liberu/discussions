@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Discussions\Models\Traits;
+namespace LaravelLiberu\Discussions\Models\Traits;
 
-use LaravelEnso\Discussions\Enums\Reactions;
-use LaravelEnso\Discussions\Models\Reaction;
+use LaravelLiberu\Discussions\Enums\Reactions;
+use LaravelLiberu\Discussions\Models\Reaction;
 
 trait Reactable
 {

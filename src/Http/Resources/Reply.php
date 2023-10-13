@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Discussions\Http\Resources;
+namespace LaravelLiberu\Discussions\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Facades\Auth;
-use LaravelEnso\Users\Http\Resources\User;
+use LaravelLiberu\Users\Http\Resources\User;
 
 class Reply extends JsonResource
 {

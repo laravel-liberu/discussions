@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Discussions;
+namespace LaravelLiberu\Discussions;
 
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
-use LaravelEnso\Discussions\Models\Discussion;
-use LaravelEnso\Discussions\Models\Reply;
-use LaravelEnso\Discussions\Policies\Discussion as DiscussionPolicy;
-use LaravelEnso\Discussions\Policies\Reply as ReplyPolicy;
+use LaravelLiberu\Discussions\Models\Discussion;
+use LaravelLiberu\Discussions\Models\Reply;
+use LaravelLiberu\Discussions\Policies\Discussion as DiscussionPolicy;
+use LaravelLiberu\Discussions\Policies\Reply as ReplyPolicy;
 
 class AuthServiceProvider extends ServiceProvider
 {

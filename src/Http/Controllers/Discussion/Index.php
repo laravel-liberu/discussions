@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Discussions\Http\Controllers\Discussion;
+namespace LaravelLiberu\Discussions\Http\Controllers\Discussion;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Discussions\Http\Requests\ValidateDiscussionFetch;
-use LaravelEnso\Discussions\Http\Resources\Discussion as Resource;
-use LaravelEnso\Discussions\Models\Discussion;
+use LaravelLiberu\Discussions\Http\Requests\ValidateDiscussionFetch;
+use LaravelLiberu\Discussions\Http\Resources\Discussion as Resource;
+use LaravelLiberu\Discussions\Models\Discussion;
 
 class Index extends Controller
 {

@@ -13,7 +13,7 @@ This package works exclusively within the [Liberu](https://github.com/laravel-en
 
 The front end assets that utilize this api are present in the [accessories](https://github.com/enso-ui/accessories) package.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 [![Watch the demo](https://laravel-enso.github.io/discussions/screenshots/bulma_001_thumb.png)](https://laravel-enso.github.io/discussions/videos/bulma_discussions.mp4)
 
@@ -21,7 +21,7 @@ For live examples and demos, you may visit [laravel-enso.com](https://www.larave
 
 ### Installation, Configuration & Usage
 
-Be sure to check out the full documentation for this package available at [docs.laravel-enso.com](https://docs.laravel-enso.com/backend/discussions.html)
+Be sure to check out the full documentation for this package available at [docs.liberu.co.uk](https://docs.liberu.co.uk/backend/discussions.html)
 
 ### Contributions
 

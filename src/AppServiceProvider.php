@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\Discussions;
+namespace LaravelLiberu\Discussions;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\Discussions\DynamicRelations\Discussions;
-use LaravelEnso\Discussions\DynamicRelations\Replies;
-use LaravelEnso\Discussions\Models\Discussion;
-use LaravelEnso\DynamicMethods\Services\Methods;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Discussions\DynamicRelations\Discussions;
+use LaravelLiberu\Discussions\DynamicRelations\Replies;
+use LaravelLiberu\Discussions\Models\Discussion;
+use LaravelLiberu\DynamicMethods\Services\Methods;
+use LaravelLiberu\Users\Models\User;
 
 class AppServiceProvider extends ServiceProvider
 {

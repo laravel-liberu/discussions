@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Discussions\Models;
+namespace LaravelLiberu\Discussions\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use LaravelEnso\TrackWho\Traits\CreatedBy;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\TrackWho\Traits\CreatedBy;
+use LaravelLiberu\Users\Models\User;
 
 class Reaction extends Model
 {

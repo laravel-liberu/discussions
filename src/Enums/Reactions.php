@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Discussions\Enums;
+namespace LaravelLiberu\Discussions\Enums;
 
-use LaravelEnso\Enums\Services\Enum;
+use LaravelLiberu\Enums\Services\Enum;
 
 class Reactions extends Enum
 {

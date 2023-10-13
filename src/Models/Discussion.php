@@ -1,17 +1,17 @@
 <?php
 
-namespace LaravelEnso\Discussions\Models;
+namespace LaravelLiberu\Discussions\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\Discussions\Exceptions\DiscussionConflict;
-use LaravelEnso\Discussions\Models\Traits\Reactable;
-use LaravelEnso\Helpers\Traits\AvoidsDeletionConflicts;
-use LaravelEnso\Helpers\Traits\CascadesMorphMap;
-use LaravelEnso\Helpers\Traits\UpdatesOnTouch;
-use LaravelEnso\TrackWho\Traits\CreatedBy;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Discussions\Exceptions\DiscussionConflict;
+use LaravelLiberu\Discussions\Models\Traits\Reactable;
+use LaravelLiberu\Helpers\Traits\AvoidsDeletionConflicts;
+use LaravelLiberu\Helpers\Traits\CascadesMorphMap;
+use LaravelLiberu\Helpers\Traits\UpdatesOnTouch;
+use LaravelLiberu\TrackWho\Traits\CreatedBy;
+use LaravelLiberu\Users\Models\User;
 
 class Discussion extends Model
 {

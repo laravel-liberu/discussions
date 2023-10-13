@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Discussions\Http\Controllers\Discussion;
+namespace LaravelLiberu\Discussions\Http\Controllers\Discussion;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Discussions\Http\Requests\ValidateDiscussionUpdate;
-use LaravelEnso\Discussions\Models\Discussion;
+use LaravelLiberu\Discussions\Http\Requests\ValidateDiscussionUpdate;
+use LaravelLiberu\Discussions\Models\Discussion;
 
 class Update extends Controller
 {

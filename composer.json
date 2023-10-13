@@ -25,15 +25,15 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\Discussions\\": "src/",
-            "LaravelEnso\\Discussions\\Database\\Factories\\": "database/factories/"
+            "LaravelLiberu\\Discussions\\": "src/",
+            "LaravelLiberu\\Discussions\\Database\\Factories\\": "database/factories/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\Discussions\\AppServiceProvider",
-                "LaravelEnso\\Discussions\\AuthServiceProvider"
+                "LaravelLiberu\\Discussions\\AppServiceProvider",
+                "LaravelLiberu\\Discussions\\AuthServiceProvider"
             ],
             "aliases": {}
         }

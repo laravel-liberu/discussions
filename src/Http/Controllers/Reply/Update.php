@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Discussions\Http\Controllers\Reply;
+namespace LaravelLiberu\Discussions\Http\Controllers\Reply;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Discussions\Http\Requests\ValidateReply;
-use LaravelEnso\Discussions\Http\Resources\Reply as Resource;
-use LaravelEnso\Discussions\Models\Reply;
+use LaravelLiberu\Discussions\Http\Requests\ValidateReply;
+use LaravelLiberu\Discussions\Http\Resources\Reply as Resource;
+use LaravelLiberu\Discussions\Models\Reply;
 
 class Update extends Controller
 {

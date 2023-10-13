@@ -4,10 +4,10 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Schema;
-use LaravelEnso\Discussions\Enums\Reactions;
-use LaravelEnso\Discussions\Models\Discussion;
-use LaravelEnso\Discussions\Traits\Discussable;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Discussions\Enums\Reactions;
+use LaravelLiberu\Discussions\Models\Discussion;
+use LaravelLiberu\Discussions\Traits\Discussable;
+use LaravelLiberu\Users\Models\User;
 use Tests\TestCase;
 
 class ReactionTest extends TestCase

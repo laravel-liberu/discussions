@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Discussions\Http\Controllers\Reply;
+namespace LaravelLiberu\Discussions\Http\Controllers\Reply;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Discussions\Models\Reply;
+use LaravelLiberu\Discussions\Models\Reply;
 
 class Destroy extends Controller
 {

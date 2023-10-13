@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Discussions\Models;
+namespace LaravelLiberu\Discussions\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use LaravelEnso\Discussions\Models\Traits\Reactable;
-use LaravelEnso\TrackWho\Traits\CreatedBy;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Discussions\Models\Traits\Reactable;
+use LaravelLiberu\TrackWho\Traits\CreatedBy;
+use LaravelLiberu\Users\Models\User;
 
 class Reply extends Model
 {

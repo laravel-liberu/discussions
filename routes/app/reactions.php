@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Discussions\Http\Controllers\Reaction\Toggle;
+use LaravelLiberu\Discussions\Http\Controllers\Reaction\Toggle;
 
 Route::prefix('reactions')
     ->as('reactions.')
