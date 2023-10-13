@@ -45,7 +45,7 @@ class Discussion extends Model
 
     public function getLoggableMorph()
     {
-        return Config::get('enso.discussions.loggableMorph');
+        return Config::get('liberu.discussions.loggableMorph');
     }
 
     public function delete()

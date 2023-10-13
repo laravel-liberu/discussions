@@ -28,7 +28,7 @@ trait Discussable
     private function attemptDiscussableDeletion()
     {
         if (
-            Config::get('enso.discussions.onDelete') === 'restrict'
+            Config::get('liberu.discussions.onDelete') === 'restrict'
             && $this->discussions()->exists()
         ) {
             throw DiscussionConflict::delete();
@@ -37,7 +37,7 @@ trait Discussable
 
     private function cascadeDiscussionDeletion()
     {
-        if (Config::get('enso.discussions.onDelete') === 'cascade') {
+        if (Config::get('liberu.discussions.onDelete') === 'cascade') {
             $this->discussions()->delete();
         }
     }
